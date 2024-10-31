@@ -1,0 +1,106 @@
+/*
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/* // card Start// */
+/* /// Btn Start /// */
+/* // bootstrap /// */
+
+
+/* // model // */
+    .mylod{
+      left:0!important;
+      top: 0px!important;
+      width: 100%!important;
+      height: 100%!important;
+      position: fixed!important;
+      background: rgba(0, 0, 0, 0.5)!important;
+      z-index: 99999  !important; 
+      display: none;
+    }
+
+    .cn_model{
+      left:0!important;
+      top: 0px!important;
+      width: 100%!important;
+      height: 100%!important;
+      position: fixed!important;
+      background: rgba(0, 0, 0, 0.5)!important;
+      z-index: 9999 !important; 
+      display: block;
+      overflow-y: scroll; 
+      display: none;
+    }
+
+    .cn_model_body{
+        position: relative;
+    	width: 70%;
+    	top: 5%;
+    	left: 0px;
+    	right: 0px;
+    	margin: 0px auto;
+    	z-index: 9999;
+    	border-radius: 3px;
+    }
+    .cn_close {
+        cursor: pointer;
+        font-weight: bold;
+        color: #000;
+    }
+/* // model End // */
+
+/* // card Start// */
+    .cn_card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+    }
+
+    .cn_card {
+        max-width: 100%;
+        padding: 0;
+    }
+    .cn_card {
+        position: relative;
+        margin-top: 20px;
+        padding: 0;
+        max-width: 100%;
+        border: 1px solid #ccd0d4;
+        box-shadow: 0 1px 1px rgba(0,0,0,.04);
+        background: #fff;
+        box-sizing: border-box;
+    }
+
+    .cn_card-header:first-child {
+        border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    }
+    .cn_card-header {
+        padding: .75rem 1.25rem;
+        margin-bottom: 0;
+        background-color: rgba(0,0,0,.03);
+        border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+
+    .cn_card-footer {
+      padding: 0.75rem 1.25rem;
+      background-color: rgba(0, 0, 0, 0.03);
+      border-top: 1px solid rgba(0, 0, 0, 0.125);
+    }
+
+    .cn_card-footer:last-child {
+      border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+    }
+
+    .cn_card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem;
+    }
